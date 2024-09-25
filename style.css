@@ -50,21 +50,95 @@ body {
     /* 撐開內邊距 */
     padding: 3%;
     /* 陰影 */
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 1px rgba(23, 207, 100, 0.401);
     /* 外框 */
-    border: 1px solid #51515130;
+    border: 1px solid #da0c0c30;
     /* 變形, 幅度為 .3rem (圓角矩形) */
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
-    transition: all .5s;
+    transition: all .5s; 
+    
 }
+
+/* 不同顏色的按鈕 */
+.btn1 {
+     /*背景顏色*/
+    background-color: rgb(93, 201, 170); 
+     /* 指定寬度 */
+     width: 50rem;
+     /* 撐開內邊距 */
+     padding: 3%;
+     /* 陰影 */
+     box-shadow: 1px 1px 1px 1px rgba(23, 207, 100, 0.401);
+     /* 外框 */
+     border: 1px solid #da0c0c30;
+     /* 變形, 幅度為 .3rem (圓角矩形) */
+     border-radius: .3rem;
+     /* 過度動畫長度指定半秒鐘 */
+     transition: all .5s; 
+}
+
+.btn2 {
+     /*背景顏色*/
+    background-color: rgb(103, 163, 200); 
+     /* 指定寬度 */
+     width: 50rem;
+     /* 撐開內邊距 */
+     padding: 3%;
+     /* 陰影 */
+     box-shadow: 1px 1px 1px 1px rgba(23, 207, 100, 0.401);
+     /* 外框 */
+     border: 1px solid #da0c0c30;
+     /* 變形, 幅度為 .3rem (圓角矩形) */
+     border-radius: .3rem;
+     /* 過度動畫長度指定半秒鐘 */
+     transition: all .5s; 
+}
+
+.btn3 {
+     /*背景顏色*/
+    background-color: rgb(155, 149, 220); 
+     /* 指定寬度 */
+     width: 50rem;
+     /* 撐開內邊距 */
+     padding: 3%;
+     /* 陰影 */
+     box-shadow: 1px 1px 1px 1px rgba(23, 207, 100, 0.401);
+     /* 外框 */
+     border: 1px solid #da0c0c30;
+     /* 變形, 幅度為 .3rem (圓角矩形) */
+     border-radius: .3rem;
+     /* 過度動畫長度指定半秒鐘 */
+     transition: all .5s; 
+}
+
+.btn4 {
+     /*背景顏色*/
+    background-color: rgb(207, 126, 196); 
+     /* 指定寬度 */
+     width: 50rem;
+     /* 撐開內邊距 */
+     padding: 3%;
+     /* 陰影 */
+     box-shadow: 1px 1px 1px 1px rgba(23, 207, 100, 0.401);
+     /* 外框 */
+     border: 1px solid #da0c0c30;
+     /* 變形, 幅度為 .3rem (圓角矩形) */
+     border-radius: .3rem;
+     /* 過度動畫長度指定半秒鐘 */
+     transition: all .5s; 
+}
+
+
 
 /* 冒號的意思是選擇虛擬類別 */
 /* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
 /* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
 .wrapper .btn:hover {
     /* 外框 */
-    border: 1px solid #51515150;
+    border: 1px solid #0c7dcf50;
     /* 陰影 */
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(19, 15, 220, 0.2);
+
+
 }
